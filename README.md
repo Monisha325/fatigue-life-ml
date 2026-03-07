@@ -1,7 +1,7 @@
 # Fatigue Life Prediction of Welded Joints in Bridge Structures
 ### Machine Learning for Structural Reliability Assessment
 
-**A data-driven ML framework for predicting fatigue life of welded bridge joints, trained on 45,315 real experimental observations extracted from 1,666 peer-reviewed publications.**
+**A data-driven ML framework for predicting fatigue life of welded bridge joints, trained on 45,315 real experimental observations extracted from 1,666 peer-reviewed publications.(from figshare)**
 
 ---
 
