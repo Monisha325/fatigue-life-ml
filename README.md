@@ -305,16 +305,7 @@ data/raw/Weld-Fatigue-Database-json/
 
 ---
 
-## ⚠️ Limitations & Future Work
-
-### Current Limitations
-
-- **Uncertainty estimation method** — Prediction intervals are computed from residual standard deviation, which assumes homoscedastic errors. True conformal or Bayesian intervals would be more statistically rigorous.
-- **XGBoost underperforms** — The XGBoost configuration was not exhaustively tuned; hyperparameter search (e.g., `RandomizedSearchCV`) may close the gap with Random Forest.
-- **Categorical features** — Welding method labels are simplified to four broad groups, which may lose fine-grained process information.
-- **Generalisation** — The model is trained and evaluated on a single database; performance on out-of-distribution weld configurations from other sources is unknown.
-
-### Future Work
+## Future Work
 
 - Apply **Bayesian optimisation** or **cross-validated hyperparameter search** for XGBoost and Random Forest
 - Investigate **Conformal Prediction** or **Quantile Regression Forests** for statistically valid prediction intervals
